@@ -1,0 +1,32 @@
+.list-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0.5rem;
+    background-image: rgb(8, 236, 198);
+    border-radius:3rem 3rem 3rem 3rem;
+    color: rgb(197, 187, 130);
+    padding:1rem;
+
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+    width: calc( 14vh + 8vw );
+    background:transparent;
+    margin:0.8rem ;
+    border:0.3rem solid rgba(0, 140, 255, 0.363);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0rem rgba(0, 140, 255, 0.363);
+   
+    font-size: calc( 1.4vh + 0.6vw );
+}
+.list-item:hover{
+    background:rgba(14, 12, 121, 0.835);
+    cursor:pointer;
+}
+
